@@ -3,9 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/CSS/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
     <title>Wax Paper</title>
   </head>
   <body>
-    
+    <div class="flex bg-[#123636] h-16 relative">
+      <div
+        class="flex flex-1 text-center justify-center items-center text-orange-500"
+      >
+        Free Shipping all over USA and Canada
+      </div>
+      <div class="flex flex-row items-center absolute gap-2 top-2 right-0">
+        <i class="fa-solid fa-bag-shopping text-4xl text-orange-500"></i>
+        <div class="flex flex-col gap-0 mr-8">
+          <span class="m-0 p-0 text-orange-500">11+</span>
+          <span class="m-0 p-0 text-orange-500">Products</span>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar-Section -->
+    <div class="container py-2">
+      <div class="flex flex-row justify-between items-center">
+        <div>
+          <img src="assets/img/logo.png" class="w-40" alt="logo" />
+        </div>
+        <div>
+          <ul class="flex flex-row font-semibold gap-8 hidden md:flex text-lg">
+            <li>Home</li>
+            <li>Product</li>
+            <li>Blogs</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="bg-[#123636] text-orange-400 px-4 py-1 rounded-full">
+            Get a Quote
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero-Section -->
+
+    <div>
+      <div class="container my-10">
+        <div class="bg-[#123636] rounded-2xl mx-0 md:mx-16 flex">
+          <div class="flex flex-row flex-1">
+            <div
+              class="flex flex-col justify-between gap-7 md:flex-1 p-12 text-orange-400"
+            >
+              <h1 class="text-2xl md:text-5xl font-semibold leading-tight">
+                Design Custom<br />
+                Wax Paper Products
+              </h1>
+              <p>
+                Create Custom Wax Papers<br />
+                According To Your Needs<br />
+                In Just 2 Easy Steps !
+              </p>
+              <div>
+                <button
+                  class="bg-orange-400 text-[#123636] font-semibold w-auto px-4 py-2 rounded-full"
+                >
+                  Design Custom Wax Paper
+                </button>
+              </div>
+            </div>
+            <div class="flex md:flex-1 relative">
+              <img
+                src="assets/img/Paper.png"
+                class="absolute -top-[10%]"
+                alt="hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product-Section -->
+    <div class="container">
+      <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-col justify-center items-center gap-2">
+          <i class="fa-solid fa-star text-orange-400 text-4xl"></i>
+          <p class="text-orange-400 text-2xl font-bold">Our Products</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
