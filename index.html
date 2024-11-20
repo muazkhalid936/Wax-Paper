@@ -14,17 +14,15 @@
     <title>Wax Paper</title>
   </head>
   <body>
-    <div class="flex bg-[#123636] h-16 relative">
-      <div
-        class="flex flex-1 text-center justify-center items-center text-orange-500"
-      >
+    <div class="flex text-[#d3996a] bg-[#123636] h-16 relative">
+      <div class="flex flex-1 text-center justify-center items-center">
         Free Shipping all over USA and Canada
       </div>
       <div class="flex flex-row items-center md:absolute gap-2 top-2 right-0">
-        <i class="fa-solid fa-bag-shopping text-4xl text-orange-500"></i>
+        <i class="fa-solid fa-bag-shopping text-4xl"></i>
         <div class="flex flex-col gap-0 md:mr-8">
-          <span class="m-0 p-0 text-orange-500">11+</span>
-          <span class="m-0 p-0 text-orange-500">Products</span>
+          <span class="m-0 p-0">11+</span>
+          <span class="m-0 p-0">Products</span>
         </div>
       </div>
     </div>
@@ -52,16 +50,27 @@
         </div>
 
         <div class="flex md:hidden">
-          <i class="fa-solid text-3xl fa-bars cursor-pointer" onclick="toggleSidebar()"></i>
+          <i
+            class="fa-solid text-3xl fa-bars cursor-pointer"
+            onclick="toggleSidebar()"
+          ></i>
         </div>
       </div>
     </div>
 
     <!-- Add this sidebar right after the navbar section -->
-    <div id="sidebar" class="fixed top-0 right-0 h-full w-64 bg-[#123636] transform translate-x-full transition-transform duration-300 ease-in-out z-50">
-      <div class="flex justify-between items-center p-4 border-b border-orange-400">
+    <div
+      id="sidebar"
+      class="fixed top-0 right-0 h-full w-64 bg-[#123636] transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+    >
+      <div
+        class="flex justify-between items-center p-4 border-b border-orange-400"
+      >
         <h2 class="text-orange-400 text-xl">Menu</h2>
-        <i class="fa-solid fa-times text-orange-400 text-2xl cursor-pointer" onclick="toggleSidebar()"></i>
+        <i
+          class="fa-solid fa-times text-orange-400 text-2xl cursor-pointer"
+          onclick="toggleSidebar()"
+        ></i>
       </div>
       <ul class="flex flex-col p-4 gap-4 text-orange-400">
         <li class="cursor-pointer hover:text-orange-300">Home</li>
@@ -73,7 +82,11 @@
     </div>
 
     <!-- Add this overlay div right after the sidebar -->
-    <div id="overlay" class="fixed inset-0 bg-black opacity-50 hidden z-40" onclick="toggleSidebar()"></div>
+    <div
+      id="overlay"
+      class="fixed inset-0 bg-black opacity-50 hidden z-40"
+      onclick="toggleSidebar()"
+    ></div>
 
     <!-- Hero-Section -->
 
@@ -82,7 +95,7 @@
         <div class="bg-[#123636] rounded-2xl mx-0 md:mx-16 flex">
           <div class="flex flex-row flex-1">
             <div
-              class="flex flex-col justify-between gap-7 md:flex-1 md:p-12 p-4 text-orange-400"
+              class="flex flex-col justify-between gap-7 md:flex-1 md:p-12 p-4 text-[#d3996a]"
             >
               <h1
                 class="text-2xl heading md:text-5xl font-semibold leading-tight"
@@ -97,7 +110,7 @@
               </p>
               <div>
                 <button
-                  class="bg-orange-400 text-[#123636] font-semibold w-auto px-4 py-2 rounded-full"
+                  class="bg-[#e8862d] text-[#123636] font-semibold w-auto px-4 py-2 rounded-full"
                 >
                   Design Custom Wax Paper
                 </button>
@@ -119,8 +132,8 @@
     <div class="container mx-auto">
       <div class="flex flex-col justify-center items-center">
         <div class="flex flex-col justify-center items-center gap-2">
-          <i class="fa-solid fa-star text-orange-400 text-4xl"></i>
-          <p class="text-orange-400 text-4xl heading">Our Products</p>
+          <i class="fa-solid fa-star text-[#d3996a] text-4xl"></i>
+          <p class="text-[#d3996a] text-4xl heading">Our Products</p>
         </div>
 
         <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-4">
@@ -142,7 +155,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -162,7 +175,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -182,7 +195,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -202,7 +215,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -222,7 +235,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -242,7 +255,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -262,7 +275,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -282,7 +295,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
           <div
             class="p-10 rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative"
@@ -302,7 +315,7 @@
                 >
               </div>
             </div>
-            <p class="text-orange-400 text-lg">Kraft Paper</p>
+            <p class="text-[#d3996a] text-lg">Kraft Paper</p>
           </div>
         </div>
       </div>
@@ -418,24 +431,28 @@
 
         <div class="help_buttons">
           <div class="flex flex-col gap-2">
-            <i class="fa-solid fa-truck ml-2 text-xl -mb-2 text-orange-400"></i>
-            <button>Free Shipping</button>
-          </div>
-          <div class="flex flex-col gap-2">
             <i
-              class="fa-solid text-orange-400 fa-rotate-left ml-2 text-xl -mb-2"
+              class="fa-solid ml-6 md:ml-2 fa-truck text-xl -mb-2 text-[#d3996a]"
             ></i>
             <button>Free Shipping</button>
           </div>
           <div class="flex flex-col gap-2">
             <i
-              class="fa-regular text-orange-400 fa-credit-card ml-2 text-xl -mb-2"
+              class="fa-solid text-[#d3996a] fa-rotate-left ml-6 md:ml-2 text-xl -mb-2"
             ></i>
-            <button>Free Shipping</button>
+            <button>30 Days Return</button>
           </div>
           <div class="flex flex-col gap-2">
-            <i class="fa-solid fa-phone text-orange-400"></i>
-            <button>Free Shipping</button>
+            <i
+              class="fa-regular text-[#d3996a] fa-credit-card ml-6 md:ml-2 text-xl -mb-2"
+            ></i>
+            <button>Secured Payment</button>
+          </div>
+          <div class="flex flex-col gap-2">
+            <i
+              class="fa-solid text-[#d3996a] fa-rotate-left ml-6 md:ml-2 text-xl -mb-2"
+            ></i>
+            <button>Support 24/7</button>
           </div>
         </div>
       </div>
@@ -1361,17 +1378,17 @@
       }
 
       function toggleSidebar() {
-        const sidebar = document.getElementById('sidebar');
-        const overlay = document.getElementById('overlay');
-        
-        if (sidebar.classList.contains('translate-x-full')) {
-          sidebar.classList.remove('translate-x-full');
-          overlay.classList.remove('hidden');
-          document.body.style.overflow = 'hidden';
+        const sidebar = document.getElementById("sidebar");
+        const overlay = document.getElementById("overlay");
+
+        if (sidebar.classList.contains("translate-x-full")) {
+          sidebar.classList.remove("translate-x-full");
+          overlay.classList.remove("hidden");
+          document.body.style.overflow = "hidden";
         } else {
-          sidebar.classList.add('translate-x-full');
-          overlay.classList.add('hidden');
-          document.body.style.overflow = 'auto';
+          sidebar.classList.add("translate-x-full");
+          overlay.classList.add("hidden");
+          document.body.style.overflow = "auto";
         }
       }
     </script>
