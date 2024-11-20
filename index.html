@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="assets/img/Logo/Logo.png" />
+    <link rel="icon" href="assets/img/favicon.png" />
     <link rel="stylesheet" href="assets/CSS/Style.css" />
+    <script src="assets/Javascript/java.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -34,16 +35,24 @@
         </div>
         <div>
           <ul class="flex flex-row font-semibold gap-8 hidden md:flex text-lg">
-            <li>Home</li>
-            <li>Product</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <a href="Single-Product.html">
+              <li>Product</li>
+            </a>
+            <a href="Single-Blog.html">
+              <li>Blogs</li>
+            </a>
+            <a href="Contact.html">
+              <li>Contact Us</li>
+            </a>
           </ul>
         </div>
 
         <div>
           <p
-            class="bg-[#123636] hidden md:flex text-orange-400 px-4 py-1 rounded-full"
+            class="bg-[#123636] hidden md:flex text-[#d3996a] px-4 py-1 rounded-full"
           >
             Get a Quote
           </p>
@@ -64,20 +73,28 @@
       class="fixed top-0 right-0 h-full w-64 bg-[#123636] transform translate-x-full transition-transform duration-300 ease-in-out z-50"
     >
       <div
-        class="flex justify-between items-center p-4 border-b border-orange-400"
+        class="flex justify-between text-[#d3996a] items-center p-4 border-b border-[#d3996a]"
       >
-        <h2 class="text-orange-400 text-xl">Menu</h2>
+        <h2 class="text-xl">Menu</h2>
         <i
-          class="fa-solid fa-times text-orange-400 text-2xl cursor-pointer"
+          class="fa-solid text-[#d3996a] fa-times text-2xl cursor-pointer"
           onclick="toggleSidebar()"
         ></i>
       </div>
-      <ul class="flex flex-col p-4 gap-4 text-orange-400">
-        <li class="cursor-pointer hover:text-orange-300">Home</li>
-        <li class="cursor-pointer hover:text-orange-300">Product</li>
-        <li class="cursor-pointer hover:text-orange-300">Blogs</li>
-        <li class="cursor-pointer hover:text-orange-300">Contact Us</li>
-        <li class="cursor-pointer hover:text-orange-300">Get a Quote</li>
+      <ul class="flex text-[#d3996a] flex-col p-4 gap-4">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="Single-Product.html">
+          <li>Product</li>
+        </a>
+        <a href="Single-Blog.html">
+          <li>Blogs</li>
+        </a>
+        <a href="Contact.html">
+          <li>Contact Us</li>
+        </a>
+        <li class="cursor-pointer">Get a Quote</li>
       </ul>
     </div>
 
@@ -759,9 +776,16 @@
               </div>
             </div>
           </div>
-
-          <!-- File Upload -->
-          <div></div>
+          <div class="flex flex-col md:flex-row gap-6">
+            <div
+              class="md:w-1/2 bg-gray-200 flex justify-around py-2 items-center"
+            >
+              <div class="items-center flex justify-center items-center gap-2">
+                <input type="checkbox" class="w-5 h-5" /> I am not a Robot
+              </div>
+              <img src="assets/img/recaptcha.png" class="w-10" />
+            </div>
+          </div>
 
           <!-- Submit Button -->
           <div class="flex justify-end">
@@ -1357,41 +1381,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-      const images = ["assets/img/why-choose.png", "assets/img/why-choose.png"];
-
-      let currentImageIndex = 0;
-
-      function changeImage(direction) {
-        currentImageIndex =
-          (currentImageIndex + direction + images.length) % images.length;
-
-        const mainImage = document.getElementById("mainImage");
-
-        mainImage.style.opacity = "0";
-
-        setTimeout(() => {
-          mainImage.src = images[currentImageIndex];
-          mainImage.style.opacity = "1";
-        }, 300);
-      }
-
-      function toggleSidebar() {
-        const sidebar = document.getElementById("sidebar");
-        const overlay = document.getElementById("overlay");
-
-        if (sidebar.classList.contains("translate-x-full")) {
-          sidebar.classList.remove("translate-x-full");
-          overlay.classList.remove("hidden");
-          document.body.style.overflow = "hidden";
-        } else {
-          sidebar.classList.add("translate-x-full");
-          overlay.classList.add("hidden");
-          document.body.style.overflow = "auto";
-        }
-      }
-    </script>
 
     <style>
       #mainImage {
