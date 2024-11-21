@@ -16,9 +16,9 @@
     <title>Single Product | Wax Paper</title>
   </head>
   <body>
-    <div class="flex text-[#d3996a] bg-[#123636] h-16 relative">
+    <div class="flex text-[#d3996a] bg-[#123636] h-16 px-2 relative">
       <div class="flex flex-1 text-center justify-center items-center">
-        Free Shipping all over USA 
+        Free Shipping all over USA
       </div>
       <div class="flex flex-row items-center md:absolute gap-2 top-2 right-0">
         <i class="fa-solid fa-bag-shopping text-4xl"></i>
@@ -53,7 +53,7 @@
 
         <div>
           <p
-            class="bg-[#123636] hidden md:flex text-[#d3996a] px-4 py-1 rounded-full"
+            class="bg-[#123636] hidden md:flex text-[#d3996a] px-4 py-3 rounded-full"
           >
             Get a Quote
           </p>
@@ -98,6 +98,7 @@
         <li class="cursor-pointer">Get a Quote</li>
       </ul>
     </div>
+
     <!-- Add this overlay div right after the sidebar -->
     <div
       id="overlay"
@@ -300,93 +301,318 @@
 
     <!-- Dimension Table -->
     <div
-    class="container my-5 mx-auto flex gap-10 md:gap-3 flex-col md:flex-row-reverse justify-center items-center"
-  >
-    <div class="flex w-full md:flex-1 md:w-1/2 gap-2 flex-col">
-      <div class="mb-5 heading">
-        <p class="text-black text-3xl heading font-bold">Print Your Own</p>
-        <p class="text-xl text-[#d3996a] font-bold">
-          Custom Papers in All Sheet Sizes
-        </p>
-      </div>
-      <div>
-        <p class="text-[#D3996A] text-center heading text-lg">Dimensions</p>
-        <table class="border text-center">
-          <tr>
-            <th class="bg-[#E8862D] p-1 text-sm text-white">
-              Dimension 4" x 4"
-            </th>
-            <th class="bg-[#E8862D] p-1 text-sm text-white">
-              Dimension 6" x 6"
-            </th>
-            <th class="bg-[#E8862D] p-1 text-sm text-white">
-              Dimension 8" x 8"
-            </th>
-            <th class="bg-[#E8862D] p-1 text-sm text-white">
-              Dimension 10" x 10"
-            </th>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 p-2">4" x 4"</td>
-            <td class="border border-gray-300 p-2">6" x 6"</td>
-            <td class="border border-gray-300 p-2">8" x 8"</td>
-            <td class="border border-gray-300 p-2">10" x 10"</td>
-          </tr>
-        </table>
+      class="container my-5 mx-auto flex gap-10 md:gap-3 flex-col md:flex-row-reverse justify-center items-center"
+    >
+      <div class="flex w-full md:flex-1 md:w-1/2 gap-2 flex-col">
+        <div class="mb-5 heading">
+          <p class="text-black text-3xl heading font-bold">Print Your Own</p>
+          <p class="text-xl text-[#d3996a] font-bold">
+            Custom Papers in All Sheet Sizes
+          </p>
+        </div>
+        <div>
+          <p class="text-[#D3996A] text-center heading text-lg">Dimensions</p>
+          <table class="border text-center">
+            <tr>
+              <th class="bg-[#E8862D] p-1 text-sm text-white">
+                Dimension 4" x 4"
+              </th>
+              <th class="bg-[#E8862D] p-1 text-sm text-white">
+                Dimension 6" x 6"
+              </th>
+              <th class="bg-[#E8862D] p-1 text-sm text-white">
+                Dimension 8" x 8"
+              </th>
+              <th class="bg-[#E8862D] p-1 text-sm text-white">
+                Dimension 10" x 10"
+              </th>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">4" x 4"</td>
+              <td class="border border-gray-300 p-2">6" x 6"</td>
+              <td class="border border-gray-300 p-2">8" x 8"</td>
+              <td class="border border-gray-300 p-2">10" x 10"</td>
+            </tr>
+          </table>
 
-        <div class="flex mt-10 flex-row gap-5">
+          <div class="flex mt-10 flex-row gap-5">
+            <p
+              class="border-2 rounded-xl w-52 text-center py-2 border-[#E8862D] text-black"
+            >
+              10" x 10"
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex md:flex-1 md:w-1/2 justify-start">
+        <img
+          src="assets/img/Dimentions/Dimentions.jpg"
+          class="rounded-2xl mx-auto md:mx-0 w-4/5 h-full object-cover"
+          alt="why-choose-img"
+        />
+      </div>
+    </div>
+
+
+
+
+    <!-- Why-Choose-Section -->
+
+    <div
+      class="container my-5 mx-auto flex gap-10 md:gap-3 flex-col md:flex-row justify-center items-center"
+    >
+      <div class="flex flex-1 gap-2 w-full md:w-1/2 flex-col">
+        <div class="mb-5 heading">
+          <p class="text-black text-2xl heading font-bold">
+            Why Choose Us For Buying
+          </p>
+          <p class="text-[#d3996a] text-2xl font-bold">Custom Wax Papers</p>
+        </div>
+        <div class="flex flex-row gap-5">
+          <div>
+            <i
+              class="fa-solid bg-[#d3996a] text-white p-1 rounded-full fa-check"
+            ></i>
+          </div>
+          <p>No additional charges for art plates and setup</p>
+        </div>
+
+        <div class="flex flex-row gap-5">
+          <div>
+            <i
+              class="fa-solid bg-[#d3996a] text-white p-1 rounded-full fa-check"
+            ></i>
+          </div>
+          <p>Free shipping facility for US-based clients</p>
+        </div>
+
+        <div class="flex flex-row gap-5">
+          <div>
+            <i
+              class="fa-solid bg-[#d3996a] text-white p-1 rounded-full fa-check"
+            ></i>
+          </div>
+          <p>1-color, 2-color or 4-color color printing</p>
+        </div>
+
+        <div class="flex flex-row gap-5">
+          <div>
+            <i
+              class="fa-solid bg-[#d3996a] text-white p-1 rounded-full fa-check"
+            ></i>
+          </div>
+          <p>Standard and specific sizes for paper sheets</p>
+        </div>
+
+        <div class="flex flex-row gap-5">
+          <div>
+            <i
+              class="fa-solid bg-[#d3996a] text-white p-1 rounded-full fa-check"
+            ></i>
+          </div>
+          <p>Availability of white and brown kraft paper</p>
+        </div>
+      </div>
+      <div
+        class="flex md:flex-1 md:w-1/2 h-[40vh] md:h-[50vh] lg:h-[70vh] justify-end"
+      >
+        <img
+          src="assets/img/why-choose.png"
+          class="rounded-2xl mx-auto md:mx-0 w-4/5 h-full object-cover"
+          alt="why-choose-img"
+        />
+      </div>
+    </div>
+
+    <!-- Custom-Wax-Paper-Section -->
+
+    <div
+      class="container my-20 flex gap-10 md:gap-3 flex-col md:flex-row-reverse justify-center items-center"
+    >
+      <div class="flex w-full md:w-1/2 md:flex-1 gap-2 flex-col">
+        <div class="mb-5">
+          <p class="text-black text-2xl font-bold heading">Custom Wax Papers</p>
+          <p class="text-[#d3996a] text-2xl font-bold">Greaseproof Paper</p>
+        </div>
+
+        <p class="text-slate-400 text-justify">
+          Welcome to Custom Wax Paper where quality meets innovation. We are the
+          one-stop solution for all restaurant's food packaging. We provide the
+          ultimate solution in the form of food wraps that keep the quality and
+          textture of the food intact.
+        </p>
+        <p class="text-slate-400 text-justify">
+          Design Specifically for the restaurant our wax papers are customized
+          as per the specific requirements of the food so that can give an
+          exclusive presentation of your food. To enjoy our best services and
+          products place your order now.
+        </p>
+        <p class="text-blue-400 underline flex gap-5 text-sm">
+          Read More
+          <i class="fa-sharp fa-solid fa-arrow-up-right"></i>
+        </p>
+
+        <div class="flex flex-row gap-5 w-full">
           <p
             class="border-2 rounded-xl w-52 text-center py-2 border-[#E8862D] text-black"
           >
-            10" x 10"
+            Get a Quote
+          </p>
+
+          <p
+            class="rounded-xl w-52 text-center py-2 font-semibold text-black bg-[#E8862D]"
+          >
+            Design Wax Paper
+          </p>
+        </div>
+
+        <div class="help_buttons">
+          <div class="flex flex-col gap-2">
+            <i
+              class="fa-solid ml-6 md:ml-2 fa-truck text-xl -mb-2 text-[#d3996a]"
+            ></i>
+            <button>Free Shipping</button>
+          </div>
+          <div class="flex flex-col gap-2">
+            <i
+              class="fa-solid text-[#d3996a] fa-rotate-left ml-6 md:ml-2 text-xl -mb-2"
+            ></i>
+            <button>30 Days Return</button>
+          </div>
+          <div class="flex flex-col gap-2">
+            <i
+              class="fa-regular text-[#d3996a] fa-credit-card ml-6 md:ml-2 text-xl -mb-2"
+            ></i>
+            <button>Secured Payment</button>
+          </div>
+          <div class="flex flex-col gap-2">
+            <i
+              class="fa-solid text-[#d3996a] fa-rotate-left ml-6 md:ml-2 text-xl -mb-2"
+            ></i>
+            <button>Support 24/7</button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex md:flex-1 md:w-1/2 h-[40vh] md:h-[50vh] lg:h-[70vh] justify-start"
+      >
+        <img
+          src="assets/img/why-choose.png"
+          class="rounded-2xl mx-auto md:mx-0 w-4/5 h-full object-cover"
+          alt="why-choose-img"
+        />
+      </div>
+    </div>
+
+    <!-- Custom-Printed-Food-Section -->
+
+    <div
+      class="container my-20 mx-auto flex gap-10 md:gap-3 flex-col md:flex-row justify-center items-center"
+    >
+      <div class="flex w-full md:flex-1 gap-2 flex-col">
+        <div class="mb-5">
+          <p class="text-black text-3xl font-bold heading">
+            Custom Printed Food
+          </p>
+          <p class="text-2xl text-[#d3996a] font-bold">Wrapping Paper</p>
+        </div>
+
+        <p class="text-[#D3996A] text-xl">Biodegradable</p>
+        <p class="text-gray-400 text-justify">
+          Show your commitment to environmental sustainability with our
+          eco-friendly, biodegradable wax paper for your food packaging.
+        </p>
+        <p class="text-[#D3996A] text-xl">Custom Printed</p>
+        <p class="text-gray-400 text-justify">
+          Personalize your food packaging experience by printed wax paper with
+          your restaurant’s logo, colors, and design of your choice. We use
+          food-safe inks in complete printing cycle.
+        </p>
+        <p class="text-[#D3996A] text-xl">Custom Printed</p>
+        <p class="text-gray-400 text-justify">
+          Represent your brand effortlessly with crisp, vibrant color printing
+          that brings your logo and design to life. We print as per exact match
+          Pantone colors & CMYK color combinations.
+        </p>
+        <div class="flex my-2 flex-row gap-5 w-full">
+          <p
+            class="border-2 rounded-xl w-52 text-center py-2 border-[#E8862D] text-black"
+          >
+            Get a Quote
+          </p>
+
+          <p
+            class="rounded-xl w-52 text-center py-2 font-semibold text-black bg-[#E8862D]"
+          >
+            Design Wax Paper
           </p>
         </div>
       </div>
+
+      <div class="flex flex-1 justify-center items-center md:justify-end">
+        <div class="grid grid-cols-2 gap-4">
+          <img
+            src="assets/img/why-choose.png"
+            class="rounded-2xl w-[200px] h-[200px] object-cover"
+            alt="why-choose-img"
+          />
+          <img
+            src="assets/img/why-choose.png"
+            class="rounded-2xl w-[200px] h-[200px] object-cover"
+            alt="why-choose-img"
+          />
+          <img
+            src="assets/img/why-choose.png"
+            class="rounded-2xl w-[200px] h-[200px] object-cover"
+            alt="why-choose-img"
+          />
+          <img
+            src="assets/img/why-choose.png"
+            class="rounded-2xl w-[200px] h-[200px] object-cover"
+            alt="why-choose-img"
+          />
+        </div>
+      </div>
     </div>
-    <div class="flex md:flex-1 md:w-1/2 justify-start">
-      <img
-        src="assets/img/Dimentions/Dimentions.jpg"
-        class="rounded-2xl mx-auto md:mx-0 w-4/5 h-full object-cover"
-        alt="why-choose-img"
-      />
-    </div>
-  </div>
+
+
+
 
     <!-- Frequently-Asked-Questions-Section -->
     <div class="container my-20 flex flex-col gap-10 md:flex-row">
@@ -803,7 +1029,7 @@
             <li>AVE UNIT #120</li>
             <li>BROOKLYN, NY 11216</li>
 
-            <li>Follow</li>
+            <li class="text-center text-2xl font-bold">Follow</li>
 
             <li class="flex gap-5">
               <a href="#"> <i class="fa-brands text-3xl fa-facebook"></i> </a
