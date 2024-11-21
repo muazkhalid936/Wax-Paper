@@ -226,6 +226,11 @@
     padding: 5px 10px;
     font-size: 0.5rem;
   }
+  .hero-img {
+    width: 300px;
+    scale: 1.2;
+    margin-left: -10px;
+  }
 }
 @media (max-width: 420px) {
   .head {
@@ -241,5 +246,14 @@
   .div1 button {
     padding: 5px 10px;
     font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .div1 {
+    flex: 0 0 70%;
+  }
+  .div2 {
+    flex: 0 0 30%;
   }
 }
