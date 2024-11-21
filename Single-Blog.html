@@ -16,14 +16,13 @@
     <title>Single Blog | Wax Paper</title>
   </head>
   <body>
-
     <div class="flex text-[#d3996a] bg-[#123636] h-16 px-2 relative">
       <div class="flex flex-1 text-center justify-center items-center">
         Free Shipping all over USA
       </div>
       <div class="flex flex-row items-center md:absolute gap-2 top-2 right-0">
         <i class="fa-solid fa-bag-shopping text-4xl"></i>
-        <div class="flex  flex-col gap-0 md:mr-8">
+        <div class="flex flex-col gap-0 md:mr-8">
           <span class="m-0 p-0">11+</span>
           <span class="m-0 p-0">Products</span>
         </div>
@@ -38,23 +37,29 @@
         <div>
           <ul class="flex flex-row font-semibold gap-8 hidden md:flex text-lg">
             <a href="index.html">
-              <li>Home</li>
+              <li class="hover:text-[#d3996a] ease-in-out duration-300">
+                Home
+              </li>
             </a>
             <a href="Single-Product.html">
-              <li>Product</li>
+              <li class="hover:text-[#d3996a] ease-in-out duration-300">
+                Product
+              </li>
             </a>
             <a href="Blogs.html">
-              <li>Blogs</li>
+              <li class="text-[#d3996a]">Blogs</li>
             </a>
             <a href="Contact.html">
-              <li>Contact Us</li>
+              <li class="hover:text-[#d3996a] ease-in-out duration-300">
+                Contact Us
+              </li>
             </a>
           </ul>
         </div>
 
         <div>
           <p
-            class="bg-[#123636] hidden md:flex text-[#d3996a] px-4 py-3 rounded-full"
+            class="bg-[#123636] hidden md:flex text-[#d3996a] px-4 py-3 rounded-xl"
           >
             Get a Quote
           </p>
@@ -132,7 +137,9 @@
     </div>
 
     <!-- Blog Content Section -->
-    <div class="container flex flex-col justify-start items-center text-justify md:flex-row mx-auto my-10">
+    <div
+      class="container flex flex-col justify-start items-center text-justify md:flex-row mx-auto my-10"
+    >
       <div class="flex w-[90%] md:w-[30%] self-start">
         <div class="rounded-2xl w-full p-5">
           <ul
@@ -322,6 +329,5 @@
         </div>
       </div>
     </div>
-
   </body>
 </html>
