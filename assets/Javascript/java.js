@@ -65,3 +65,21 @@ function toggleFAQ(element) {
   }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide(".splide", {
+    type: "slide",
+    perPage: 3,
+    perMove: 1,
+    gap: "1rem",
+    pagination: true,
+    arrows: true,
+    breakpoints: {
+      768: {
+        perPage: 1,
+      },
+      1024: {
+        perPage: 2,
+      },
+    },
+  }).mount();
+});
