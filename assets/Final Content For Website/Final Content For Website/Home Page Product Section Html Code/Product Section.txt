@@ -1,0 +1,113 @@
+    <!-- Product Grid -->
+    <div class="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Product Tile -->
+	    <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Deli Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Deli Paper</p>
+      </div>
+     
+	    <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Butcher Paper.png" class="object-cover h-full w-full" alt="Custom Butcher Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Butcher Paper</p>
+      </div>
+	    <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Kraft Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Kraft Paper</p>
+      </div>
+	     <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Parchment Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Parchment Paper</p>
+      </div>
+	  	   
+	   <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Greaseproof Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Greaseproof Paper</p>
+      </div>
+       <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Sandwich Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Sanwich Paper</p>
+      </div>
+     
+	    <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Cheese Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Cheese Paper</p>
+      </div>
+        <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Basket Liner.png" class="object-cover h-full w-full" alt="Custom Basket Liner">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Basket Liner</p>
+      </div>
+
+	    <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Freezer Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Freezer Paper</p>
+      </div>
+	
+	   <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Food Paper.png" class="object-cover h-full w-full" alt="Custom Cheese Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Food Paper</p>
+      </div>
+	 
+	  <div class="w-full rounded-2xl cursor-pointer flex flex-col justify-center items-center group relative p-4 bg-[#123636]">
+        <div class="bg-white h-[260px] w-[260px] flex justify-center items-center rounded-xl relative overflow-hidden">
+          <img src="./Wax Paper_files/Custom Hot Paper.png" class="object-cover h-full w-full" alt="Custom Food Paper">
+          <div class="absolute inset-0 bg-black/50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="font-semibold bg-[#e8862d] px-4 py-2 rounded-xl text-[#123636]">View Product</span>
+          </div>
+        </div>
+        <p class="text-[#d3996a] text-xl font-semibold mt-2 text-center">Custom Hot Paper</p>
+      </div>
+	  
+      <!-- Add additional products as needed using the same structure -->
+    </div>
+	
+  </div>
