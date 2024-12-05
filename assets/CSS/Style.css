@@ -243,6 +243,9 @@
     font-size: 0.6rem;
     margin-top: 5px;
   }
+  .p-5 {
+    padding: 2.25rem !important;
+  }
   .div1 button {
     padding: 5px 10px;
     font-size: 0.5rem;
